@@ -83,7 +83,7 @@ function drawGame() {
     if (gameOver) {
         ctx.fillStyle = 'black';
         ctx.font = '50px Arial';
-        const gameOverText = 'Game Over!';
+        const gameOverText = 'GAME OVER';
         const scoreText = `Score: ${score}`;
         
         // Centrar texto
